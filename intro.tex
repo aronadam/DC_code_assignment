@@ -1,0 +1,6 @@
+INTRO
+This report aims to answer exercises about sparsifying basis and signal reconstruction, applied to the image processing domain. In part A TODOREF, the influence of the choice for a specific basis is investigated and discussed. In part B TODOREF, image reconstruction is done using a sparse recovery method.
+The data used for this assignment is the picture in \ref{fig:messi_colour}. However, before any operation and research, it is first transformed to a 8-bits grayscale image. This is done by taking the values of the original image's green chanel, which yields sufficient result. The greyscale image, as show in figure \ref{fig:messi_bw}, is from now on referred to as 'the image'.
+
+A
+The first task is to subdivide the image into equally large patches of 32x32 pixels. Next, the Mean Squared Error (MSE) in k-sparse approximation for two sparsifying bases can be calculated, patch by patch. In order to maintain some continuity in the input, the patches are defined as shown in figure TODO. This will thus result in a smoother MSE curve.
